@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 import sys
 
 def factorize(number):
@@ -9,7 +11,7 @@ def factorize(number):
 
 def main():
     if len(sys.argv) != 2:
-        print("Usage: factors <file>")
+        print(f"Usage: factors <filename>")
         return
 
     filename = sys.argv[1]
